@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB15620E24160B1F00A4E4A9 /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15620D24160B1F00A4E4A9 /* CalculatorButtonItem.swift */; };
+		FB15621424161F1F00A4E4A9 /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB15621324161F1F00A4E4A9 /* CalculatorButtonStyle.swift */; };
 		FB1C59772411F8FD00D64A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C59762411F8FD00D64A98 /* AppDelegate.swift */; };
 		FB1C59792411F8FD00D64A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C59782411F8FD00D64A98 /* SceneDelegate.swift */; };
 		FB1C597B2411F8FD00D64A98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C597A2411F8FD00D64A98 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		FB15620D24160B1F00A4E4A9 /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
+		FB15621324161F1F00A4E4A9 /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
 		FB1C59732411F8FD00D64A98 /* CalculatorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1C59762411F8FD00D64A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB1C59782411F8FD00D64A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				FB1C59782411F8FD00D64A98 /* SceneDelegate.swift */,
 				FB1C597A2411F8FD00D64A98 /* ContentView.swift */,
 				FB15620D24160B1F00A4E4A9 /* CalculatorButtonItem.swift */,
+				FB15621324161F1F00A4E4A9 /* CalculatorButtonStyle.swift */,
 				FB1C597C2411F8FF00D64A98 /* Assets.xcassets */,
 				FB1C59812411F8FF00D64A98 /* LaunchScreen.storyboard */,
 				FB1C59842411F90000D64A98 /* Info.plist */,
@@ -152,6 +155,7 @@
 				FB1C59772411F8FD00D64A98 /* AppDelegate.swift in Sources */,
 				FB1C59792411F8FD00D64A98 /* SceneDelegate.swift in Sources */,
 				FB15620E24160B1F00A4E4A9 /* CalculatorButtonItem.swift in Sources */,
+				FB15621424161F1F00A4E4A9 /* CalculatorButtonStyle.swift in Sources */,
 				FB1C597B2411F8FD00D64A98 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

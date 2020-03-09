@@ -12,7 +12,7 @@ enum CalculatorButtonItem {
     enum Op:String {
         case plus = "+"
         case minus = "-"
-        case divide = "%"
+        case divide = "/"
         case multiply = "*"
         case equal = "="
     }
@@ -40,7 +40,13 @@ extension CalculatorButtonItem{
     }
     
     var size : CGSize{
-        CGSize(width: 88, height: 88)
+        if 1>0,2>1 {
+            
+        }
+        if case.digit(let value) = self, value==0 {
+            return CGSize(width: 88*2+8, height: 88)
+        }
+        return CGSize(width: 88, height: 88)
     }
 
     var backgroundColorName : String{
