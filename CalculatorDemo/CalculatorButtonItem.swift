@@ -12,8 +12,8 @@ enum CalculatorButtonItem {
     enum Op:String {
         case plus = "+"
         case minus = "-"
-        case divide = "/"
-        case multiply = "*"
+        case divide = "÷"
+        case multiply = "x"
         case equal = "="
     }
     
@@ -53,7 +53,8 @@ extension CalculatorButtonItem{
         switch self {
         case .digit,.dot:return "digitBackground"
         case.op:return "operatorBackground"
-        case.command:return "commandBackground"
+        case.command:return "#353535"
+//            commandBackground
         }
     }
 }
