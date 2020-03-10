@@ -13,7 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing:12 ){
-            Spacer()
+//            Spacer()
             Text("0")
                 .font(.system(size: 76))
                 .minimumScaleFactor((0.5))
@@ -26,14 +26,17 @@ struct ContentView: View {
             )
             CalculatorButtonPad()
                 .padding(.bottom)
-        }.scaleEffect(scale)
+        }
+        .frame(width:414, height: 800,alignment: .bottom)
+        .scaleEffect(scale)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewDevice("iPhone SE")
+//            .previewDevice("iPhone SE")
+//        Environment(\.colorScheme)
     }
 }
 
