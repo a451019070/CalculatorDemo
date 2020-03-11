@@ -15,6 +15,7 @@
 		FB1C597D2411F8FF00D64A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1C597C2411F8FF00D64A98 /* Assets.xcassets */; };
 		FB1C59802411F8FF00D64A98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1C597F2411F8FF00D64A98 /* Preview Assets.xcassets */; };
 		FB1C59832411F8FF00D64A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1C59812411F8FF00D64A98 /* LaunchScreen.storyboard */; };
+		FB6BF4FD2418852F0032A274 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6BF4FC2418852F0032A274 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FB1C597F2411F8FF00D64A98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FB1C59822411F8FF00D64A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB1C59842411F90000D64A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6BF4FC2418852F0032A274 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FB1C59762411F8FD00D64A98 /* AppDelegate.swift */,
 				FB1C59782411F8FD00D64A98 /* SceneDelegate.swift */,
 				FB1C597A2411F8FD00D64A98 /* ContentView.swift */,
+				FB6BF4FC2418852F0032A274 /* CalculatorBrain.swift */,
 				FB15620D24160B1F00A4E4A9 /* CalculatorButtonItem.swift */,
 				FB15621324161F1F00A4E4A9 /* CalculatorButtonStyle.swift */,
 				FB1C597C2411F8FF00D64A98 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6BF4FD2418852F0032A274 /* CalculatorBrain.swift in Sources */,
 				FB1C59772411F8FD00D64A98 /* AppDelegate.swift in Sources */,
 				FB1C59792411F8FD00D64A98 /* SceneDelegate.swift in Sources */,
 				FB15620E24160B1F00A4E4A9 /* CalculatorButtonItem.swift in Sources */,
